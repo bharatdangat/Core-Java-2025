@@ -1,0 +1,8 @@
+
+public class YoungerAgeException {
+
+	public YoungerAgeException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.ty.first;
+public class Customer
+{
+	Customer()
+	{
+		System.out.println("I am Om");
+	}
+	Customer(String s)
+	{
+		System.out.println("I am "+s);
+	}
+	Customer(float f)
+	{
+		System.out.println("I am Ram Amount-"+f);
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+       Customer om=new Customer();
+       Customer sai=new Customer("sai");
+       Customer ram=new Customer(304.67);
+       
+       
+	}
+
+}

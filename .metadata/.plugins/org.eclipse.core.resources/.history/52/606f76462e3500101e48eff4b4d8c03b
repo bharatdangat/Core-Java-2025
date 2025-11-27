@@ -1,0 +1,26 @@
+package com.ty.first;
+public class Student2 
+{
+	int id;
+	String name;
+	double per;
+	
+	void setData(int r,String n,double p)
+	{
+		id=r;
+		name=n;
+		per=p;
+	}
+ 
+	public static void main(String[] args)
+	{
+	 Student om=new Student();
+	 om.setData(101,"om",99.4);
+	 System.out.println(om.id);
+	 System.out.println(om.name);
+	 System.out.println(om.per);
+	 
+	 
+	}
+
+}

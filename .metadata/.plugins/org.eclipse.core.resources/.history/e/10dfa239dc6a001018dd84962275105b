@@ -1,0 +1,21 @@
+import java.util.*;
+public class ArrayList3
+{
+	public static void main(String[] args)
+	{
+	ArrayList<String> a1=new ArrayList<String>();
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Limit-");
+	int n=sc.nextInt();
+	System.out.println("Enter n City Names-");
+	for(int i=0;i<n;i++)
+	{
+		String city=sc.next();
+		a1.add(city);
+	}
+	System.out.println(a1);
+	System.out.println(a1.removeAll(a1));
+	System.out.println(a1);
+	}
+
+}

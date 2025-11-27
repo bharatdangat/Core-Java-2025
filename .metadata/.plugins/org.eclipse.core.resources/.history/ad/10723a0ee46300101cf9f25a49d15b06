@@ -1,0 +1,9 @@
+public class Demo2
+{
+	public static void main(String[] args)
+	{
+	 StringBuffer s1=new StringBuffer("Adi");
+	  System.out.println(""+s1.append("nath"));
+	}
+
+}

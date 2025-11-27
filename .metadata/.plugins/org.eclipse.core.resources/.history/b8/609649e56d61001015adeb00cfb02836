@@ -1,0 +1,6 @@
+
+abstract class C extends B
+{
+	abstract void login(long adhar);
+	abstract void register(String username);
+}

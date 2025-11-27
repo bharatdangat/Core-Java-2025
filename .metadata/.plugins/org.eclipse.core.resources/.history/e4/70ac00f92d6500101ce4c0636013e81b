@@ -1,0 +1,14 @@
+import java.util.*;
+public class usDemo2
+{
+	void checkData()
+	{
+	 Scanner sc=new Scanner(System.in);	
+	}
+	public static void main(String[] args)
+	{
+	 usDemo2 ob=new usDemo2();
+	 ob.checkData();
+	}
+
+}

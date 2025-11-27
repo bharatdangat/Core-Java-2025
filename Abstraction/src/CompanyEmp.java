@@ -1,0 +1,21 @@
+public class CompanyEmp extends Employee 
+{
+	@Override
+	void addition(int a, int b)
+	{
+	 System.out.println("Addition-"+(a+b));	
+	}
+	@Override
+	void substraction(int a, int b)
+	{
+		System.out.println("Substraction-"+(a-b));	
+	}
+	public static void main(String[] args)
+	{
+     CompanyEmp ob=new CompanyEmp(); 
+     ob.login();
+     ob.addition(100, 50);
+     ob.substraction(100,50);
+	}
+
+}

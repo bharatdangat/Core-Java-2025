@@ -1,0 +1,21 @@
+package com.ty.first;
+public class Student4 
+{
+	static String company;
+     int id;
+	String name;
+	double per;
+	
+	
+    public static void main(String[] args)
+	{
+     Student4.company="TCS";
+	 Student4 om=new Student4();
+	System.out.println(company);
+	 Student4 sai=new Student4();
+	 System.out.println(company); 
+	 Student4 ram=new Student4();
+	 System.out.println(company);
+	}
+
+}

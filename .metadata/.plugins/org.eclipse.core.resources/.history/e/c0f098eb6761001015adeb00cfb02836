@@ -1,0 +1,14 @@
+public class Sham extends Adi
+{
+	@Override
+	public void login()
+	{
+		System.out.println("Ovverride login method of sham");
+	}
+	public static void main(String[] args) 
+	{
+	 Sham s=new Sham();
+	 s.login();
+	}
+
+}

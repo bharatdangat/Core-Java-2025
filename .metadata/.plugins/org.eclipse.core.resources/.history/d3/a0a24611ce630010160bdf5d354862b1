@@ -1,0 +1,15 @@
+public class Demo1
+{
+	public static void main(String[] args)
+	{
+	 String s1="Computer";
+	 System.out.println("Length of String-"+s1.length());
+	 System.out.println(""+s1.charAt(0)+""+s1.charAt(1)+""+s1.charAt(2));
+	 System.out.println("ASCII value of C-"+s1.codePointAt(0));
+	 System.out.println("ASCII value of o-"+s1.codePointBefore(2));
+	 
+	 
+	 
+	}
+
+}

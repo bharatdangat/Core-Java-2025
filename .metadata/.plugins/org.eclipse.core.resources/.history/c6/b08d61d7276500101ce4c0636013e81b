@@ -1,0 +1,37 @@
+import java.util.*;
+public class uDemo3
+{
+	void checkNumber()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Number-");
+		int no=sc.nextInt();
+		try
+		{
+		if(no==0)
+		{
+			throw new  NumberZeroException("Number is Zero");
+		}
+		else
+		{
+			int r=0;
+			while(no>0)
+			{               //365
+			  int d=no%10; //5,6,3
+			    r=(r*10)+d; //5,56,563
+			   no=no/10; //36,3,
+			}
+			System.out.println("Reversr no="+r);
+		}
+		}catch(NumberZeroException e)
+		{
+			System.out.println(e);
+		}
+	}
+	public static void main(String[] args)
+	{
+	 uDemo3 ob=new uDemo3();
+	 ob.checkNumber();
+	}
+
+}

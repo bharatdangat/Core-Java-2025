@@ -1,0 +1,23 @@
+package com.inheritance;
+public class Q extends P
+{
+	int id=201;
+	void show()
+	{
+		System.out.println("Hi");
+	}
+	void m1()
+	{
+		System.out.println(id); //201;
+		System.out.println(super.id);
+	    show();
+	    super.show();
+	}
+	
+	public static void main(String[] args)
+	{
+	 Q ob=new Q();
+	 ob.m1();
+	}
+
+}

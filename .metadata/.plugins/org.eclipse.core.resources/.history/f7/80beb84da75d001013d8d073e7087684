@@ -1,0 +1,22 @@
+package src.com.inheritance;
+import java.util.*;
+public class School extends University
+{
+ int sno;
+ String sname;
+ void accept()
+	{
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter Scholl no and name");
+	 int sno=sc.nextInt();
+	 String sname=sc.next();
+	}
+	void display()
+	{
+	System.out.println("University No-"+uno);
+	System.out.println("University Name-"+uname);	
+	 System.out.println("School No-"+sno);
+	 System.out.println("School Name-"+sname);
+	}
+	
+}

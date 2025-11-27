@@ -1,0 +1,9 @@
+
+public class JavaDeveloper extends Developer
+{
+	public static void main(String[] args)
+	{
+	  
+	}
+
+}

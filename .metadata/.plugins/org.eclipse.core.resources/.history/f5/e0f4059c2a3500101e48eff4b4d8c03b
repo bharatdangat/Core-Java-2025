@@ -1,0 +1,14 @@
+package com.ty.first;
+public class StackOverflowError
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Hi.....");
+	
+	}
+	public static void main(int[] args)
+	{
+		System.out.println("Bye.....");
+	
+	}
+  }

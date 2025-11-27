@@ -1,0 +1,21 @@
+
+public class JavaDeveloper extends Developer
+{
+	int rno=90;
+	@Override
+    void show()
+	{
+	 System.out.println("Show of child...");	
+	}
+	public static void main(String[] args)
+	{
+		//(Dynamic Dispatch->)
+	  Developer ob=new JavaDeveloper();
+	  ob.id=300;
+	  System.out.println(ob.id);
+	  ob.login();
+	  //ob.show(); -not possible(dynamic dispatch) 
+	  //ob.rno;-not possible
+	}
+
+}

@@ -1,0 +1,27 @@
+//Using Array of object-: store multiple record in each object...
+public class Demo5
+{
+	void accept(int rno,String name,float per)
+	{
+		System.out.println(" Roll No-"+rno+" Name-"+name+" Per"+per);
+	}
+	public static void main(String[] args)
+	{
+	 Demo5 ob[]=new Demo5[10]; //Create AOO
+	 ob[0]=new Demo5();  //Allocate memory each object
+	 ob[1]=new Demo5();
+	 ob[2]=new Demo5();
+	 ob[3]=new Demo5();
+	 
+	 ob[0].accept(101,"om",43);//call function
+	 ob[1].accept(102,"sai",44);
+	 ob[2].accept(103,"ram",45);
+	 ob[3].accept(104,"sham",65);
+	 ob[4].accept(105,"aman",47);
+		
+	 
+	 
+	 
+	}
+
+}

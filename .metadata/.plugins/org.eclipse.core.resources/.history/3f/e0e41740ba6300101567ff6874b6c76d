@@ -1,0 +1,15 @@
+//Using Array of object-: store multiple record in each object...
+public class Demo5
+{
+	void accept(int rno,String name,float per)
+	{
+		System.out.println(" Roll No-"+rno+" Name-"+name+" Per"+per);
+	}
+	public static void main(String[] args)
+	{
+	 Demo4 ob=new Demo4();
+	 ob.accept(101,"om",90);
+	
+	}
+
+}

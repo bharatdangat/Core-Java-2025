@@ -1,0 +1,9 @@
+public class YoungerAgeException extends Exception 
+{
+	public YoungerAgeException(String msg)
+	{
+		super(msg);
+		//it will call base class parametrised. constructor...
+	}
+	
+}

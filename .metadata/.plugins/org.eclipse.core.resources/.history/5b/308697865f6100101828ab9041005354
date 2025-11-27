@@ -1,0 +1,10 @@
+
+abstract class Developer 
+{
+	int id=101;
+ Developer() //abstract class constrctor.. /abstract Developer(not possible)
+ {
+	 System.out.println("Abstract class Constrctor...");
+ }
+ 
+}

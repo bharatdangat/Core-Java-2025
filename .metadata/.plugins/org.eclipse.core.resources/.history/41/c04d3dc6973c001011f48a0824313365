@@ -1,0 +1,34 @@
+//Constructor Chaining........
+package com.ty.first;
+public class Customer
+{
+	Customer()
+	{
+		this(28);
+		System.out.println("I am Om");
+	}
+	Customer(int a)
+	{
+		this("sai");
+		System.out.println("Value of A-"+a);
+	}
+	
+	Customer(String s)
+	{
+		this(45.66);
+		System.out.println("I am "+s);
+	}
+	Customer(double f)
+	{
+		System.out.println("I am Ram Amount-"+f);
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+       Customer om=new Customer();  
+       
+	}
+
+}

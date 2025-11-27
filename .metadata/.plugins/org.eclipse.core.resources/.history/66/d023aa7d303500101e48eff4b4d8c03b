@@ -1,0 +1,35 @@
+package com.ty.first;
+public class Student3 
+{
+	int id;
+	String name;
+	double per;
+	
+	void setData(int i,String n,double p)
+	{
+		this.id=i;
+		this.name=n;
+		this.per=p;
+	}
+    void display()
+    {
+    	System.out.println("Roll No-:"+id);
+    	System.out.println("Name-:"+name);
+    	System.out.println("Per-:"+per);
+    	System.out.println("--------------------------");
+    }
+	public static void main(String[] args)
+	{
+	 Student3 om=new Student3();
+	 om.setData(101,"om",99.4);
+	 om.display();
+	 Student3 sai=new Student3();
+	 sai.setData(102,"sai",94.4);
+	 sai.display();
+	 Student3 ram=new Student3();
+	 ram.setData(103,"ram",93.4);
+	 ram.display();
+	 
+	}
+
+}

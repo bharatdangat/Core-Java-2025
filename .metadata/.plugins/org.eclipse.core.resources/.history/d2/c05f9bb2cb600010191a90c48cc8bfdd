@@ -1,0 +1,8 @@
+package com.nonaessmodify;
+
+public class NDemoMain {
+//static int d=130;-class level var..
+	static void display(){
+		System.out.println("static display method...");
+	}
+}

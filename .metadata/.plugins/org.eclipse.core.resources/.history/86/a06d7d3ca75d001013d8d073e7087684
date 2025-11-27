@@ -1,0 +1,34 @@
+package src.com.inheritance;
+
+import java.util.Scanner;
+
+public class Colleges extends University
+{
+	int cno;
+	String cname;
+	void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter College no and name");
+		 int cno=sc.nextInt();
+		 String cname=sc.next();
+	}
+	void display()
+	{
+		System.out.println("University No-"+uno);
+		System.out.println("University Name-"+uname);	
+		 System.out.println("College No-"+cno);
+		 System.out.println("College Name-"+cname);
+			
+	}
+	public static void main(String[] args) 
+	{
+	 School s=new School();
+	 s.accept();
+	 s.display();
+	 Colleges c=new Colleges();
+	 c.accept();
+	 c.display();
+	}
+
+}

@@ -1,0 +1,31 @@
+
+abstract class JavaDeveloper extends Developer
+{
+	int rno=90;
+	@Override
+    void show()
+	{
+	 System.out.println("Show of child...");	
+	}
+	void display()
+	{
+		System.out.println("Display of child");
+	}
+	@Override
+	void nullable() {
+		System.out.println("Nullable method...");
+	}
+	public static void main(String[] args)
+	{
+		//(Dynamic Dispatch->gives parent refference)
+	  Developer ob=new JavaDeveloper();
+	  ob.id=300;
+	  System.out.println(ob.id);
+	  ob.login();
+	  ob.show(); //possible becoz ovverrided method otherwise it call only parent method 
+	  //ob.rno;-not possible
+	  //ob.display();-not possible
+	  ob.nullable();
+	}
+
+}

@@ -1,0 +1,10 @@
+//throws-we declare exception in main then it will handle by JVM(i.e using throws) otherwise handle by method... 
+public class Demo3
+{
+	public static void main(String[] args)throws Exception
+	{
+	 String s1=null;
+	 System.out.println(""+s1.length());
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.ty.first;
+public class Student 
+{
+	int id;
+	String name;
+	float per;
+	public static void main(String[] args)
+	{
+	 Student ob=new Student();
+	 ob.id=101;
+	 ob.name="om";
+	 ob.per=89;
+	 System.out.println(ob.id);
+	 System.out.println(ob.name);
+	 System.out.println(ob.per);
+	}
+
+}

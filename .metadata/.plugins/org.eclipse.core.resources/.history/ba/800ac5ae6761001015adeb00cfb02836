@@ -1,0 +1,15 @@
+
+public class Sai extends Sham
+{
+	@Override
+	public void login() 
+	{
+		Ovverride login method of sai
+	};
+	public static void main(String[] args) 
+	{
+     Sai sa=new Sai();
+     
+	}
+
+}

@@ -1,0 +1,11 @@
+public class YoungerAgeException extends Exception 
+{
+	public YoungerAgeException(String msg)
+	{
+		super(msg);
+		//it will call base class constructor of Exception class...
+	 //check using open Exception class..
+	
+	}
+	
+}

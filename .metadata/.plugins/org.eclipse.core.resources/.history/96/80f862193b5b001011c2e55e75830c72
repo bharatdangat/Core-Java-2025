@@ -1,0 +1,23 @@
+public class Employee
+{
+	static int eno=103; //static variable
+	String ename="om"; //instatnce or global variable
+	
+	void accept()
+	{
+		
+	}
+	void display()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+	 Employee ob=new Employee();
+	 Employee ob1=new Employee();
+	 //static var acess using class name or object and instatnce variable acess using object
+	 System.out.println(ob.ename);
+	 System.out.println(ob1.eno);
+	}
+
+}

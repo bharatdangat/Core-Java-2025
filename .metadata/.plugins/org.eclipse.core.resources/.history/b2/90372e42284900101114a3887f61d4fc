@@ -1,0 +1,11 @@
+//Turnsry Operator...........
+package com.ty.first;
+public class Operators
+{
+	public static void main(String[] args)
+	{
+	 String p=(10<20? "Hi":"Hello");
+	 System.out.println(p);
+	}
+
+}

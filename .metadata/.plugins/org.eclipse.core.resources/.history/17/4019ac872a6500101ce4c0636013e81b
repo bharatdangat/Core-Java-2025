@@ -1,0 +1,8 @@
+public class CheckAgeException extends Exception
+{
+	@Override
+	public String toString()
+	{
+	 	return "Age is Under 18...";
+	}
+}

@@ -1,0 +1,13 @@
+
+public class JavaDeveloper extends Developer
+{
+	public static void main(String[] args)
+	{
+		//(Dynamic Dispatch->)
+	  Developer ob=new JavaDeveloper();
+	  ob.id=300;
+	  System.out.println(ob.id);
+	  
+	}
+
+}

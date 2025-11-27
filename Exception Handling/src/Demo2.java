@@ -1,0 +1,22 @@
+public class Demo2
+{
+	public static void main(String[] args)
+	{
+	 try
+	 {
+		 String s1="Mauli";
+		 System.out.println(""+s1.charAt(5));
+		 String s2=null;
+		 System.out.println(""+s2.length());
+	 }
+	 catch(StringIndexOutOfBoundsException e1)
+	 {
+		 System.out.println("Error-"+e1);
+	 }
+	 catch(NullPointerException e2)
+	 {
+		 System.out.println("Error-"+e2);	 
+	 }
+	}
+
+}

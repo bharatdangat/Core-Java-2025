@@ -1,0 +1,21 @@
+public class Employee
+{
+	static int eno=103; //static variable
+	String ename="om"; //instatnce or global variable
+	
+	void accept()
+	{
+		
+	}
+	void display()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+	 Employee ob=new Employee();
+	 System.out.println(ob.ename);
+	 System.out.println(ob.eno);
+	}
+
+}

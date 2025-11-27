@@ -1,0 +1,14 @@
+import java.lang.reflect.Array;
+//pass Array to method && return array from method...
+public class Demo2
+{
+	int[] m1(int a[])
+	{
+		return a;
+	}
+	public static void main(String[] args)
+	{
+	 Demo2 ob=new Demo2();
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class JavaDeveloper extends Developer
+{
+	public static void main(String[] args)
+	{
+	  Developer ob=new JavaDeveloper();
+	  System.out.println(ob.id);
+	}
+
+}

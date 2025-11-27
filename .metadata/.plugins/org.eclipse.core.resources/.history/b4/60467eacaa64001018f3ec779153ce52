@@ -1,0 +1,15 @@
+//using parametrized contructor...
+import java.util.*;
+public class uDemo 
+{
+	void checkAge()
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+	 uDemo ob=new uDemo();
+	 ob.checkAge();
+	}
+
+}

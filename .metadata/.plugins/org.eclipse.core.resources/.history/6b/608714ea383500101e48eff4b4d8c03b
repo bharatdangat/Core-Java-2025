@@ -1,0 +1,50 @@
+
+//this keyword........
+
+package com.ty.first;
+public class Student5 
+{
+	int id;
+	String name;
+	double per;
+
+	Student5(int id,String name,double per)
+	{
+		this.id=id;
+		this.name=name;
+		this.per=per;
+	}
+	
+	//instance method....
+	void show()
+	{
+		System.out.println("This is Instance method...");
+	}
+		
+	//static method....
+    static void calculate()
+    {
+    	System.out.println("This is Static  Method...");
+    }
+    
+    void display()
+    {
+    	System.out.println("Roll No-:"+id);
+    	System.out.println("Name-:"+name);
+    	System.out.println("Per-:"+per);
+    	System.out.println("--------------------------");
+    }
+	public static void main(String[] args)
+	{
+	 Student5.calculate();
+	 Student5 om=new Student5(101,"om",99.4);
+	 om.display();
+	 om.show();
+	 Student5 sai=new Student5(102,"sai",94.4);
+	 sai.display();
+	 sai.show();
+	 Student5 ram=new Student5(103,"ram",93.4);
+	 ram.display(); 
+	}
+
+}

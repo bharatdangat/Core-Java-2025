@@ -1,0 +1,5 @@
+
+abstract class C extends B
+{
+	abstract void login(double adhar);
+}

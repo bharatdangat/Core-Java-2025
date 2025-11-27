@@ -1,0 +1,8 @@
+//abstract class-ddont create ob of abstract class...
+abstract class Employee
+{
+ void login()
+ {
+	 System.out.println("Login non abstract method..");
+ }
+}

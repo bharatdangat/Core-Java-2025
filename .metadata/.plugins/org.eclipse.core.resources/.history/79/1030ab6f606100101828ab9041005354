@@ -1,0 +1,18 @@
+
+abstract class Developer 
+{
+	int id=101;
+	void login()
+	{
+		System.out.println("Login of parent");
+	}
+	void show()
+	{
+		System.out.println("Show of parent");
+	}
+ Developer() //abstract class constrctor.. /abstract Developer(not possible)
+ {
+	 System.out.println("Abstract class Constrctor...");
+ }
+ 
+}

@@ -1,0 +1,15 @@
+
+public class Ram extends Adi
+{
+	@Override
+	public void login()
+	{
+	 System.out.println("Ovverride login method");	
+	}
+	public static void main(String[] args) 
+	{
+	 Ram r=new Ram();
+	 r.login();
+	}
+
+}

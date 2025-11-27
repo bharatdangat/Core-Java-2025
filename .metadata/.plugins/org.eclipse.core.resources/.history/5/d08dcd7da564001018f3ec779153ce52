@@ -1,0 +1,9 @@
+public class Demo3
+{
+	public static void main(String[] args)throws Exception
+	{
+	 String s1=null;
+	 System.out.println(""+s1.length());
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.ty.first;
+public class Student6
+{
+    String greet(String msg)
+    {
+     String name="Adi";
+     return name+msg;
+    }
+    
+	public static void main(String[] args) 
+	{
+	Student6  ob=new Student6();
+	ob.greet("Good Morning");
+	}
+
+}

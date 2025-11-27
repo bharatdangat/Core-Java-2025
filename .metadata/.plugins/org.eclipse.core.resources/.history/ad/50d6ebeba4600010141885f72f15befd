@@ -1,0 +1,30 @@
+//constructor ovverriding...
+public class Demo
+{
+	Demo()
+	{
+		System.out.println("Deefault constructor...");
+	}
+	Demo(int a,int b)
+	{
+		System.out.println("Addition of Int-"+(a+b));
+	}
+	Demo(String s)
+	{
+     System.out.println("String-"+s);	
+	}
+	Demo(float a,float b)
+	{
+		System.out.println("Addition of Float-"+(a+b));
+	}
+	Demo(double  a,double b,double c)
+	{
+		System.out.println("Addition of Double-"+(a+b));	
+	}
+	
+	public static void main(String[] args)
+	{
+	 Demo ob=new Demo();
+	}
+
+}

@@ -1,0 +1,58 @@
+import java.util.*;
+public class usDemo2
+{
+	void checkData()
+	{
+		try
+		{
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter PAN Number-");
+	 String pan=sc.next();
+	 System.out.println("Enter Mobile No-");
+	 String mobile=sc.next();
+	 for(int i=0;i<=4;i++)
+	 {
+		 if(!Character.isUpperCase(pan.charAt(i)))
+		 {
+		  throw new InvalidDataException();
+		 }
+	 }
+	 for(int i=5;i<=8;i++)
+	 {
+		 if(!Character.isDigit(pan.charAt(i)))
+		 {
+			 throw new InvalidDataException(); 
+		 }
+	 }
+	  if(!Character.isUpperCase(pan.charAt(9)))
+	 {
+		 throw new InvalidDataException();
+	 }
+	  for(int i=0;i<=9;i++)
+		 {
+			 if(!Character.isDigit(mobile.charAt(i)))
+			 {
+				 throw new InvalidDataException(); 
+			 }
+			 if(mobile.length()!=10)
+			 {
+				 throw new InvalidDataException(); 
+				     				 
+			 }
+
+		 }
+		
+	 System.out.println("PAN No-"+pan);
+	 System.out.println("Mobile No-"+mobile);
+		}catch(InvalidDataException e)
+		{
+			System.out.println("Error-"+e);
+		}
+	}
+	public static void main(String[] args)
+	{
+	 usDemo2 ob=new usDemo2();
+	 ob.checkData();
+	}
+
+}

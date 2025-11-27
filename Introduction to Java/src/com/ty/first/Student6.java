@@ -1,0 +1,37 @@
+package com.ty.first;
+public class Student6
+{
+	int[] m2(int numbers[])
+	{
+	/*
+	 for(int i=0;i<numbers.length;i++)
+	 {
+		 System.out.println(numbers[i]);
+	}*/
+	//using foreach loop
+	for(int num:numbers)
+	{
+	System.out.println(num);	
+	}
+	return numbers;
+	}
+	
+    String greet(String msg)
+    {
+     String name="Adi";
+     return name+msg;
+    }
+    
+	public static void main(String[] args) 
+	{
+	Student6  ob=new Student6();
+	String r=ob.greet("Good Morning");
+	System.out.println(r);
+	
+	int a[]={10,20,30,40};
+	int result[]=ob.m2(a);
+	for(int rs:result)
+	System.out.println("Returned array-"+rs);
+	}
+
+}

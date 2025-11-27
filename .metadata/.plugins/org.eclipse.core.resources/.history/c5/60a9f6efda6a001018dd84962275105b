@@ -1,0 +1,29 @@
+import java.util.*;
+public class ArrayList2
+{
+	public static void main(String[] args)
+	{
+	ArrayList a1=new ArrayList();
+	a1.add(101);
+	a1.add("php");
+	a1.add(899);
+	System.out.println(a1);
+	a1.remove(0);
+	//System.out.println(a1);
+	//a1.clear();
+	//System.out.println(a1);
+	//a1.removeAll(a1);
+	a1.add("python");
+	System.out.println(a1);
+	if(a1.contains("php"))
+	    System.out.println("Found.");
+	else
+		System.out.println("Not Found.");
+	System.out.println("Second pos Element-"+a1.get(2));
+	if(a1.isEmpty())
+		System.out.println("ArrayList is Empty.");
+	else
+		System.out.println("ArrayList is not Empty");
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.ty.first;
+public class StackOverflowError
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Hi.....");
+	    int a[]=new int[10];
+	    for(int i=0;i<=10;i++)
+	    {
+	    	a[0]=1;
+	    	a[1]=2;
+	    	a[2]=3;
+	    	a[3]=4;
+	    }
+	    //int a[]={1,2,3,4};
+	    
+		main(a);
+}
+	public static void main(int[] args)
+	{
+		System.out.println("Bye.....");
+	    String b[]={"om","sai","ram"};
+		main(b);
+	}
+  }

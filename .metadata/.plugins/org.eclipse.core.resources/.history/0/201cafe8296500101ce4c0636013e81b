@@ -1,0 +1,30 @@
+import java.util.*;
+public class usDemo
+{
+	void checkAge()
+	{
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter Age-");
+	 int age=sc.nextInt();
+	 try
+	 {
+	 if(age<18)
+	 {
+		 
+	 }
+	 else
+	 {
+		 System.out.println("Eligible For Voting..");
+	 }
+	 }catch(Exception e)
+	 {
+		 System.out.println("Error-"+e);
+	 }
+	}
+	public static void main(String[] args)
+	{
+	  usDemo ob=new usDemo();
+	  ob.checkAge();
+	}
+
+}

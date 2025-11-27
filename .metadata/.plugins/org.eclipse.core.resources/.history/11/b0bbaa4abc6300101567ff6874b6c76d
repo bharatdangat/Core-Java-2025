@@ -1,0 +1,36 @@
+//Accept n employee info aand display..(we use AOO)
+import java.util.*;
+public class Demo6
+{
+	void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Emp No-");
+		int eno=sc.nextInt();
+		System.out.println("Enter Emp Name-");
+		String name=sc.next();
+		System.out.println("Enter Emp Sal-");
+		float sal=sc.nextFloat();		
+	}
+	void display()
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+	 Demo6 ob[]=new Demo6[100];
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter Limit-");
+	 int n=sc.nextInt();
+	 for(int i=0;i<n;i++)
+	 {
+		 ob[i]=new Demo6();
+		 ob[i].accept();
+	 }
+	 for(int i=0;i<n;i++)
+	 {
+		 ob[i].display();
+	 }
+	}
+
+}

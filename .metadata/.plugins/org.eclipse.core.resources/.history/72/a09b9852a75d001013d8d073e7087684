@@ -1,0 +1,17 @@
+package src.com.inheritance;
+
+import java.util.Scanner;
+
+public class University 
+{
+ int uno;
+ String uname;
+ void accept()
+ {
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter Univrsity no and name");
+	 int uno=sc.nextInt();
+	 String uname=sc.next();
+	 
+ }
+}

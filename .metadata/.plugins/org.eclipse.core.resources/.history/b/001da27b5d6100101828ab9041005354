@@ -1,0 +1,9 @@
+public class CompanyEmp extends Employee 
+{
+	public static void main(String[] args)
+	{
+     CompanyEmp ob=new CompanyEmp(); 
+     ob.login();
+	}
+
+}

@@ -1,0 +1,19 @@
+
+abstract class Developer 
+{
+	int id=101;
+	Developer() //abstract class constrctor.. /abstract Developer(not possible)
+	 {
+		 System.out.println("Abstract && class Constrctor...");
+	 }
+
+	void login()
+	{
+		System.out.println("Login of parent");
+	}
+	static void show()
+	{
+		System.out.println("Show of parent");
+	}
+  abstract void nullable(); //Abstract methods do not specify a body
+}

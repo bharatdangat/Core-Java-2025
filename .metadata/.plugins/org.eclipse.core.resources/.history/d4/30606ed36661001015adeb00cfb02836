@@ -1,0 +1,8 @@
+public class Sham extends Adi
+{
+	public static void main(String[] args) 
+	{
+	
+	}
+
+}

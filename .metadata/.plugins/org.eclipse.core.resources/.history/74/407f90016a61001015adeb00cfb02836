@@ -1,0 +1,25 @@
+
+public class D extends C 
+{
+  @Override
+void login(String username)
+  {
+	System.out.println("Login By-"+username);  
+  }
+@Override
+	void login(String username, long password) {
+		// TODO Auto-generated method stub
+		
+	}
+@Override
+	void login(double adhar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void main(String[] args) 
+	{
+	 D ob=new D();
+	}
+
+}

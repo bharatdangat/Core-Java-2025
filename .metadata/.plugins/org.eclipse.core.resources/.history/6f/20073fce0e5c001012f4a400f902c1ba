@@ -1,0 +1,21 @@
+package com.inheritance;
+class Adi
+{
+}
+class Bharat extends Adi
+{
+	
+}
+class Chetan extends Bharat
+{
+ 	
+}
+public class D extends Chetan 
+{
+
+	public static void main(String[] args)
+	{
+	 D ob=new D();
+	}
+
+}

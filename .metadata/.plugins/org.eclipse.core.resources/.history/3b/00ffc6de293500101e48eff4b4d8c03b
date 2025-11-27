@@ -1,0 +1,15 @@
+package com.ty.first;
+public class MultiMain
+{
+	final public  static void main(String[] args)
+	{
+       System.out.println("Good Morning....");
+       int a[]={1,2,3,4};
+       main(a);//JVM call only one main method hence second main call inside first main..
+	}
+	final private static void main(int[] args) 
+	{
+	 System.out.println("Good Night..");	
+	}
+
+}

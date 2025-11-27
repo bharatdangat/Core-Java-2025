@@ -1,0 +1,10 @@
+import java.util.*;
+public class Stack1 
+{
+	public static void main(String[] args)
+	{
+	Stack s1=new Stack();
+	s1.pud
+	}
+
+}

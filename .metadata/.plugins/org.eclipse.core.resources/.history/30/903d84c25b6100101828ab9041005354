@@ -1,0 +1,8 @@
+public class CompanyEmp extends Employee 
+{
+	public static void main(String[] args)
+	{
+
+	}
+
+}

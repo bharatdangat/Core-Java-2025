@@ -1,0 +1,22 @@
+package com.inheritance;
+class A
+{
+	System.out.println("I am Base Class  A");
+}
+class B extends A
+{
+	
+}
+class C extends B
+{
+ System.out.println("");	
+}
+public class D extends C 
+{
+
+	public static void main(String[] args)
+	{
+	 D ob=new D();
+	}
+
+}

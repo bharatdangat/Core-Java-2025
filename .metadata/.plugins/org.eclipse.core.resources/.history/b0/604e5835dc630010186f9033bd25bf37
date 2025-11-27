@@ -1,0 +1,45 @@
+public class Demo1
+{
+	public static void main(String[] args)
+	{
+	 String s1="Computer";
+	 System.out.println("Length of String-"+s1.length());
+	 System.out.println(""+s1.charAt(0)+""+s1.charAt(1)+""+s1.charAt(2));
+	 System.out.println("ASCII value of C-"+s1.codePointAt(0));
+	 System.out.println("ASCII value of o-"+s1.codePointBefore(2));
+	 System.out.println();
+	 String s2="Developement";
+	 int k=s1.compareTo(s2);
+	 if(k==0)
+		 System.out.println("Strings are Same");
+	 else if(k>0)
+		 System.out.println("First string is greater");
+	 else
+		 System.out.println("Seconds string is greater");
+	 
+	 System.out.println("Concated String-"+(s1.concat(s2)));
+	 if(s2.contains("D"))
+	 {
+		 System.out.println("Contains D");
+	 }
+	 if(s2.endsWith("t"))
+	 {
+		 System.out.println("String ends with t");
+	 }
+	 if(s1.equals(s2))
+	 {
+		 System.out.println("Strings Equals");
+	 }
+	 else
+		 System.out.println("Not Equals");
+	 String s3=s2.toUpperCase();
+	 System.out.println(s3);
+	 System.out.println(s2.substring(0,3));
+	 System.out.println(s1.replace('D','A'));
+	 
+	 
+	 
+	 
+	}
+
+}

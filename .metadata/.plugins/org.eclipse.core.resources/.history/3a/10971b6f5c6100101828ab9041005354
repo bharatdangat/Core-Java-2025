@@ -1,0 +1,5 @@
+//abstract class-ddont create ob of abstract class...
+abstract class Employee
+{
+ 
+}

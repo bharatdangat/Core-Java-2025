@@ -1,0 +1,31 @@
+package com.ty.first;
+public class Student4 
+{
+	//static variable of one class can acess in another calss using class name
+	
+	static String company;
+     int id;
+	String name;
+	double per;
+	
+	
+    public static void main(String[] args)
+	{
+     Student4.company="TCS";
+	 Student4 om=new Student4();
+	 om.id=101;
+	System.out.println(company);
+	System.out.println(om.id);
+	 Student4 sai=new Student4();
+	 System.out.println(Student4.company);
+	 sai.id=102;
+	 System.out.println(sai.id);
+		
+	 Student4 ram=new Student4();
+	 System.out.println(company);
+	 ram.id=103;
+	 System.out.println(ram.id);
+		
+	}
+
+}

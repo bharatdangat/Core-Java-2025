@@ -1,0 +1,24 @@
+public class Demo1
+{
+	int[] function(int a[])
+	{
+		return a;
+	}
+	public static void main(String[] args)
+	{
+	 try
+	 {
+     Demo1 ob=new Demo1();
+     int a[]={10,20,30,40};
+     int arr[]=ob.function(a);
+     for(int i=0;i<5;i++)
+     {
+    	 System.out.println(arr[i]);
+     }
+	}catch(Exception e)
+	 {
+		System.out.println("Error-"+e);
+	 }
+	
+
+}

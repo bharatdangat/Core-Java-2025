@@ -1,0 +1,8 @@
+public class YoungerAgeException extends Exception 
+{
+	public YoungerAgeException(String msg)
+	{
+		super(msg);
+	}
+	
+}

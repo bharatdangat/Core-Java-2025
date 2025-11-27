@@ -1,0 +1,8 @@
+
+abstract class Developer 
+{
+ Developer() //abstract class constrctor.. /abstract Developer(not possible)
+ {
+	 
+ }
+}

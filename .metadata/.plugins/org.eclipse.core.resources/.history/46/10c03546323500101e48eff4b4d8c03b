@@ -1,0 +1,39 @@
+package com.ty.first;
+public class Student4 
+{
+	static int id;
+	String name;
+	double per;
+	
+	void setData(int i,String n,double p)
+	{
+		id=i;
+		name=n;
+		per=p;
+	}
+	System.out.println("Instance variable Defult Value-:"+name);
+	System.out.println("Static variable Defult Value-:"+id);
+	System.out.println("Local variable Defult Value-:"+i);
+
+    void display()
+    {
+    	System.out.println("Roll No-:"+id);
+    	System.out.println("Name-:"+name);
+    	System.out.println("Per-:"+per);
+    	System.out.println("--------------------------");
+    }
+	public static void main(String[] args)
+	{
+	 Student4 om=new Student4();
+	 om.setData(101,"om",99.4);
+	 om.display();
+	 Student4 sai=new Student4();
+	 sai.setData(102,"sai",94.4);
+	 sai.display();
+	 Student4 ram=new Student4();
+	 ram.setData(103,"ram",93.4);
+	 ram.display();
+	 
+	}
+
+}

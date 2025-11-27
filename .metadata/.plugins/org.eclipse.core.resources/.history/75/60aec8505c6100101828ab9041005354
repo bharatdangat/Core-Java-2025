@@ -1,0 +1,12 @@
+abstract class CompanyEmp extends Employee 
+{
+	CompanyEmp() //constructor of abstract class..
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+      
+	}
+
+}
